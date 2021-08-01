@@ -75,7 +75,7 @@ header{
 
 header .logo{
     font-size: 2rem;
-    color:var(--white);
+    color:var(--blue);
 }
 
 header .logo span{
