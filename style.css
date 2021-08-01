@@ -75,11 +75,11 @@ header{
 
 header .logo{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--white);
 }
 
 header .logo span{
-    color:var(--white);
+    color:var(--blue);
 }
 
 header .navbar a{
