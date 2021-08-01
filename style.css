@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 :root{
-    --purple:#f2eaf5;
-    --pink:#3277f8;
-    --gradient:linear-gradient(90deg, var(--purple), var(--pink));
+    --white:#f2eaf5;
+    --blue:#3277f8;
+    --gradient:linear-gradient(90deg, var(--white), var(--blue));
 }
 
 *{
@@ -75,21 +75,21 @@ header{
 
 header .logo{
     font-size: 2rem;
-    color:var(--purple);
+    color:var(--white);
 }
 
 header .logo span{
-    color:var(--pink);
+    color:var(--white);
 }
 
 header .navbar a{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--purple);
+    color:var(--white);
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:var(--blue);
 }
 
 header input{
@@ -98,7 +98,7 @@ header input{
 
 header label{
     font-size: 3rem;
-    color:var(--purple);
+    color:var(--white);
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -289,7 +289,7 @@ header label{
 }
 
 .join form input[type="submit"]:hover{
-    color:var(--pink);
+    color:var(--blue);
 }
 
 .testimonials .box-container{
@@ -315,7 +315,7 @@ header label{
     position: absolute;
     top:1rem; right:2rem;
     font-size: 8rem;
-    color:var(--pink);
+    color:var(--blue);
     opacity: .3;
 }
 
@@ -328,7 +328,7 @@ header label{
 }
 
 .testimonials .box-container .box .user h3{
-    color:var(--pink);
+    color:var(--blue);
     font-size: 2rem;
 }
 
@@ -531,7 +531,7 @@ background-size: cover;
     margin-right: 1rem;
     border-radius: 50%;
     background:#fff;
-    color:var(--pink);
+    color:var(--blue);
     font-size: 1.5rem;
     height:4.5rem;
     width:4.5rem;
